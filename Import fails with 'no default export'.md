@@ -1,3 +1,7 @@
+## Import fails with 'no default export'
+
+---
+
 `export default` 로 작성되어 있지 않은 모듈을 `import module from 'module'` 과 같이 가져오려고 하면 아래와 같은 에러 메세지가 발생한다.
 
 _Module '"/Users/parkjonghyeok/Workspace/graphql-course/node_modules/@types/bcrypt/index"' has no default export._
