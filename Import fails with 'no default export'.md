@@ -5,6 +5,6 @@ _Module '"/Users/parkjonghyeok/Workspace/graphql-course/node_modules/@types/bcry
 이를 해결 할 수 있는 방법은 2가지가 있다.
 
 1. `import * as module from 'module'` 을 사용한다.
-2. `tsconfig.json` 에 `"allowSyntheticDefaultImports": true` 를 준다.
+2. `tsconfig.json` 에 `"allowSyntheticDefaultImports": true` 와 `"esModuleInterop": true` 를 준다.
 
 > 참고: https://github.com/microsoft/TypeScript-React-Starter/issues/8
